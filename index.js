@@ -58,5 +58,4 @@ const getData = async () => {
   });
   timeFrame.innerHTML = template;
 };
-
 getData();
