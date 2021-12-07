@@ -28,7 +28,7 @@ Users should be able to:
 
 ### Screenshot
 
-![Laptop View](time-tracking-dashboard-main\design\desktop-preview.jpg)
+![Laptop View](./time-tracking-dashboard-main/design/desktop-preview.jpg)
 
 ### Links
 
