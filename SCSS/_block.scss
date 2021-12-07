@@ -1,0 +1,98 @@
+// Each of 6 blocks
+.block {
+  width: 30%;
+  //   background-color: $color-exercise;
+
+  .block__header {
+    width: 100%;
+    height: 25%;
+
+    border-radius: 10px 10px 0 0;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 50px;
+  }
+
+  .block__header--work {
+    background-color: $color-work;
+    background-image: url("../images/icon-work.svg");
+  }
+  .block__header--play {
+    background-color: $color-paleBlue;
+    background-image: url("../images/icon-play.svg");
+  }
+  .block__header--study {
+    background-color: $color-study;
+    background-image: url("../images/icon-study.svg");
+  }
+  .block__header--exercise {
+    background-color: $color-exercise;
+    background-image: url("../images/icon-exercise.svg");
+  }
+  .block__header--social {
+    background-color: $color-social;
+    background-image: url("../images/icon-social.svg");
+  }
+  .block__header--selfcare {
+    background-color: $color-selfCare;
+    background-image: url("../images/icon-self-care.svg");
+  }
+
+  .block__data {
+    background-color: $color-darkBlue;
+    position: relative;
+    top: -1rem;
+    height: calc(75% + 1rem);
+    border-radius: 10px;
+    padding: 1rem 0.5rem;
+
+    &--header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 0.5rem;
+    }
+  }
+
+  .block__title {
+    font-size: 0.5rem;
+  }
+  .block__more {
+    position: relative;
+    top: -0.2rem;
+  }
+
+  //   block__data--details
+  .block__data--details {
+    & h2 {
+      font-size: 1.8rem;
+      font-weight: 300;
+      margin-bottom: 0.4rem;
+    }
+
+    & p {
+      font-size: 0.5rem;
+      font-weight: 300;
+      color: $color-paleBlue;
+    }
+  }
+}
+
+// MEdia queries
+@media screen and (max-width: 375px) {
+  .block {
+    width: 100%;
+  }
+  .block .block__header {
+    height: 30%;
+  }
+  .block .block__data {
+    top: -0.6rem;
+  }
+
+  .block .block__data--details {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+}

@@ -1,0 +1,14 @@
+.time__dedicated {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  padding: 0 1rem;
+}
+
+@media screen and (max-width: 375px) {
+  .time__dedicated {
+    flex-direction: column;
+    padding: 0;
+    gap: 2rem;
+  }
+}
