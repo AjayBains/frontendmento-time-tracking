@@ -28,12 +28,12 @@ Users should be able to:
 
 ### Screenshot
 
-![](./)
+![Laptop View](time-tracking-dashboard-main\design\desktop-preview.jpg)
 
 ### Links
 
-- Solution URL: [git hub](https://github.com/AjayBains/frontendmento-time-tracking)
-- Live Site URL: [Time Tracking Challenge Frontend Mnetor](https://frontendmentor-time-tracking.netlify.app/)
+- Solution URL: [Code Git hub ](https://github.com/AjayBains/frontendmento-time-tracking)
+- Live Site URL: [Time Tracking Challenge Frontend Mentor](https://frontendmentor-time-tracking.netlify.app/)
 
 ### Built with
 
